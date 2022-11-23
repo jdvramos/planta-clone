@@ -1,0 +1,156 @@
+/****************************/
+/* HEADER */
+/****************************/
+
+.header {
+  background-color: #e7edde;
+  padding: 0 1.6rem;
+}
+
+.main-nav {
+  position: relative;
+  margin: 0 10px;
+}
+
+.logo {
+  display: inline-block;
+  text-decoration: none;
+  color: #224722;
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+
+  font-size: 3.6rem;
+  font-weight: 600;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7.2rem;
+
+  list-style: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #224722;
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.2s;
+
+  padding-bottom: 2px;
+
+  border-bottom: 1px transparent solid;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  border-bottom: 1px #224722 solid;
+}
+
+.main-nav-link.btn-app:link,
+.main-nav-link.btn-app:visited {
+  padding: 0.8rem 1.4rem;
+  border-radius: 100px;
+  border: #224722 1px solid;
+}
+
+.main-nav-link.btn-app:hover,
+.main-nav-link.btn-app:active {
+  background-color: #333;
+  color: #e7edde;
+}
+
+/****************************/
+/* HERO */
+/****************************/
+
+.section-hero {
+  height: calc(100vh - 72px);
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-bottom: 10px;
+}
+
+.hero {
+  max-width: 111rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-primary {
+  font-size: 10.5rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+  line-height: 10rem;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+  line-height: 2.8rem;
+}
+
+.btn-app-img {
+  width: 15.6rem;
+}
+
+.hero-img-box {
+  text-align: center;
+}
+
+.relative {
+  position: relative;
+  transform: translateY(16px);
+  width: 100%;
+}
+
+.hero-img {
+  width: 350px;
+}
+
+.floating {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  /* box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075); */
+  filter: drop-shadow(0px 14px 15px rgba(0, 0, 0, 0.15));
+}
+
+.app-icon {
+  top: 39%;
+  left: -4%;
+}
+
+.add-plant-icon {
+  top: 61%;
+  left: 100%;
+}
+
+.menu-bar-icon {
+  top: 86%;
+  left: 72%;
+}
+
+.example {
+  background-color: #fff;
+}
+
+.hero-img-container {
+  display: inline-block;
+  position: relative;
+}

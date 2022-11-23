@@ -1,0 +1,116 @@
+@media (max-width: 73em) {
+  .hero {
+    max-width: 100rem;
+  }
+
+  .heading-primary {
+    font-size: 9.5rem;
+  }
+}
+
+@media (max-width: 68em) {
+  html {
+    /* we want to change this to 9px (9 / 16 = 56.25%) */
+    font-size: 56.25%;
+  }
+
+  .heading-primary {
+    font-size: 7.5rem;
+  }
+
+  .hero-description {
+    font-size: 1.8rem;
+  }
+
+  .hero-img {
+    width: 300px;
+  }
+
+  .app-icon {
+    width: 122px;
+  }
+
+  .add-plant-icon {
+    width: 175px;
+  }
+
+  .menu-bar-icon {
+    width: 332px;
+  }
+}
+
+@media (max-width: 60em) {
+  html {
+    /* 8px */
+    font-size: 50%;
+  }
+
+  .hero {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .hero-img {
+    width: 250px;
+  }
+
+  .app-icon {
+    width: 101px;
+  }
+
+  .add-plant-icon {
+    width: 145px;
+  }
+
+  .menu-bar-icon {
+    width: 276px;
+  }
+}
+
+@media (max-width: 50em) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .section-hero {
+    margin-bottom: 20px;
+  }
+
+  .heading-primary {
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-description {
+    font-size: 2rem;
+  }
+
+  .hero-img {
+    width: 196px;
+  }
+
+  .app-icon {
+    width: 79px;
+  }
+
+  .add-plant-icon {
+    width: 113px;
+  }
+
+  .menu-bar-icon {
+    width: 215px;
+  }
+
+  .hero-img-box {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+  }
+
+  .relative {
+    transform: translateY(0);
+  }
+
+  .btn-app-img {
+    width: 156px;
+  }
+}

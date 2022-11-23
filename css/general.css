@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 62.5 percent of the default font size which is 16px is 10px */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #224722;
+
+  /* all the elements that overflow the viewport (like the mobile nav bar) in the x-axis or horizontally will simply be hidden, we need to set it on the body and the html*/
+
+  /* this also only works if there is nothing absolutely positioned in relation to body */
+  /* overflow-x: hidden; */
+}
+
+main {
+  background-color: rgb(231, 237, 222);
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
