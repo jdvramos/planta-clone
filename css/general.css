@@ -31,3 +31,32 @@ main {
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
+
+.container {
+  max-width: 111rem;
+  margin: 0 auto;
+}
+
+.container-unique {
+  max-width: 115rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 11.2rem;
+  row-gap: 12.8rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+.padding-side-sm {
+  padding-right: 20px;
+  padding-left: 20px;
+}
