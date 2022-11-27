@@ -79,7 +79,7 @@
   display: flex;
   align-items: center;
   /* justify-content: center; */
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .hero {
@@ -114,7 +114,7 @@
   text-align: center;
 }
 
-.relative {
+.relative-hero {
   position: relative;
   transform: translateY(16px);
   width: 100%;
@@ -360,13 +360,6 @@
   padding-bottom: 13.6rem;
 }
 
-.heading-secondary {
-  text-align: center;
-  font-size: 6rem;
-  font-weight: 600;
-  margin-bottom: 6.4rem;
-}
-
 .app-rating-container {
   display: flex;
   justify-content: center;
@@ -481,4 +474,141 @@
 
 .swiper-pagination-bullet-active {
   background-color: #224722;
+}
+
+/****************************/
+/* GALLERY */
+/****************************/
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1.4fr 1.1fr;
+  grid-template-rows: repeat(2, 264px);
+  gap: 1.6rem;
+}
+
+.cacti {
+  background-color: darkgoldenrod;
+  border-radius: 0 0 250px 0;
+  overflow: hidden;
+}
+
+.vegetables {
+  background-color: red;
+  grid-column: 2 / 4;
+  border-radius: 250px;
+  overflow: hidden;
+}
+
+.herbs {
+  background-color: yellow;
+  border-radius: 40px 40px 40px 0;
+  overflow: hidden;
+}
+
+.orchids {
+  background-color: plum;
+  grid-column: 5 / -1;
+  grid-row: 1 / -1;
+  border-radius: 0 0 250px 0;
+  overflow: hidden;
+}
+
+.foliage {
+  background-color: hotpink;
+  grid-column: 1 / 4;
+  border-radius: 0 200px;
+  overflow: hidden;
+}
+
+.flowering {
+  border-radius: 40px 0 40px 40px;
+  background-color: darkorange;
+  overflow: hidden;
+}
+
+.img-bg-container {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+
+  background-size: cover;
+  background-position: center;
+
+  padding: 1.6rem;
+}
+
+.title {
+  color: #fff;
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.gal-icon {
+  color: #fff;
+  width: 6rem;
+  height: 6rem;
+  transform: translate(-1rem, 1rem);
+}
+
+.gal-icon-unique {
+  color: #fff;
+  width: 6rem;
+  height: 6rem;
+}
+
+.gal-icon-unique-2 {
+  color: #fff;
+  width: 6rem;
+  height: 6rem;
+  transform: translate(1rem, 1rem);
+}
+
+.img1 {
+  background-image: linear-gradient(
+      rgba(41, 41, 41, 0.25),
+      rgba(41, 41, 41, 0.25)
+    ),
+    url("../img/gallery-imgs/cacti.webp");
+}
+
+.img2 {
+  background-image: linear-gradient(
+      rgba(41, 41, 41, 0.25),
+      rgba(41, 41, 41, 0.25)
+    ),
+    url("../img/gallery-imgs/vegetables.webp");
+}
+
+.img3 {
+  background-image: linear-gradient(
+      rgba(41, 41, 41, 0.25),
+      rgba(41, 41, 41, 0.25)
+    ),
+    url("../img/gallery-imgs/herbs.webp");
+}
+
+.img4 {
+  background-image: linear-gradient(
+      rgba(41, 41, 41, 0.25),
+      rgba(41, 41, 41, 0.25)
+    ),
+    url("../img/gallery-imgs/orchids.webp");
+}
+
+.img5 {
+  background-image: linear-gradient(
+      rgba(41, 41, 41, 0.25),
+      rgba(41, 41, 41, 0.25)
+    ),
+    url("../img/gallery-imgs/foliage.webp");
+}
+
+.img6 {
+  background-image: linear-gradient(
+      rgba(41, 41, 41, 0.25),
+      rgba(41, 41, 41, 0.25)
+    ),
+    url("../img/gallery-imgs/flowering.webp");
 }
