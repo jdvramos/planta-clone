@@ -86,7 +86,6 @@ main {
 .flex-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .flex-unique {
@@ -104,4 +103,14 @@ main {
 
 .absolute {
   position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.on-top {
+  z-index: 100;
+}
+
+.padding-sm {
+  padding: 1.6rem;
 }
