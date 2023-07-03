@@ -46,15 +46,7 @@
   font-weight: 500;
   font-size: 1.6rem;
   transition: all 0.2s;
-
-  padding-bottom: 2px;
-
-  border-bottom: 1px transparent solid;
-}
-
-.main-nav-link:hover,
-.main-nav-link:active {
-  border-bottom: 1px #224722 solid;
+  padding: 0 20px;
 }
 
 .main-nav-link.btn-app:link,
@@ -104,6 +96,10 @@
   font-weight: 500;
   margin-bottom: 4rem;
   line-height: 2.8rem;
+}
+
+.btn {
+  display: inline-block;
 }
 
 .btn-app-img {
@@ -306,7 +302,7 @@
   background-color: #fff;
   padding: 1.2rem 1.2rem;
 
-  top: 85%;
+  bottom: 4%;
   left: 4%;
 
   width: 20rem;
@@ -325,7 +321,7 @@
 }
 
 .feat-img-container-4 {
-  border-radius: 120px 120px 120px 120px;
+  border-radius: 120px;
   background-image: url("../img/feature-imgs/feature_4.webp");
   background-size: cover;
   background-position: center;
@@ -384,10 +380,12 @@
   width: 2.2rem;
   height: 2.2rem;
 }
+
 .app-name {
   font-size: 1.8rem;
   font-weight: 500;
 }
+
 .app-rating {
   font-size: 1.8rem;
   font-weight: 700;
@@ -405,22 +403,10 @@
   overflow: visible;
 }
 
-/* .card-wrapper {
-  background-color: #fff;
-  padding: 2.4rem;
-  height: 100%;
-
-  border-radius: 20px;
-
-  box-sizing: border-box;
-} */
-
 .card {
   background-color: #fff;
   padding: 2.4rem;
-
-  height: 25.5rem;
-
+  height: 310px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -436,14 +422,12 @@
   font-size: 1.8rem;
   line-height: 1.5;
   font-weight: 500;
-  margin-bottom: 2.4rem;
 }
 
 .user-rating {
   display: flex;
   align-items: center;
   gap: 0.8rem;
-  margin-top: auto;
 }
 
 .user {
@@ -641,4 +625,100 @@
 .link-container:hover .img-bg-container {
   transform: scale(1.05);
   filter: brightness(1.2);
+}
+
+/****************************/
+/* FOOTER */
+/****************************/
+
+.section-footer {
+  width: 100%;
+  color: #e0ffc0;
+}
+
+.footer-container {
+  max-width: 111rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.footer-bg-color {
+  background-color: #142b14;
+}
+
+.padding-footer {
+  padding: 56px 16px;
+}
+
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 4rem;
+  color: #e0ffc0;
+  font-weight: 600;
+}
+
+.links-container {
+  width: 554px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-category-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-category-text {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.footer-link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #7c966c;
+  color-scheme: light;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  text-decoration: underline;
+}
+
+.bottom {
+  align-items: end;
+}
+
+.download-links {
+  display: flex;
+  gap: 10px;
+}
+
+.download-link {
+  height: 37px;
+}
+
+.download-links img {
+  height: 100%;
+}
+
+.copyright {
+  font-size: 1.6rem;
+  line-height: 2;
 }

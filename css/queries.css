@@ -67,13 +67,13 @@
   }
 }
 
-@media (max-width: 50em) {
+@media (max-width: 53em) {
   .hero {
     grid-template-columns: 1fr;
   }
 
   .section-hero {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 
   .heading-primary {
@@ -83,6 +83,10 @@
 
   .hero-description {
     font-size: 2rem;
+  }
+
+  .relative-hero {
+    transform: none;
   }
 
   .hero-img {
@@ -112,5 +116,163 @@
 
   .btn-app-img {
     width: 156px;
+  }
+
+  .container-unique {
+    row-gap: 9rem;
+  }
+
+  .feat-img-box-1,
+  .feat-img-box-2,
+  .feat-img-box-3,
+  .feat-img-box-4 {
+    grid-column: 1 / -1;
+    height: 270px;
+  }
+
+  .feat-text-box-1,
+  .feat-text-box-2,
+  .feat-text-box-3,
+  .feat-text-box-4 {
+    grid-column: 1 / -1;
+  }
+
+  .feat-img-box-2 {
+    grid-row: 3 / 4;
+  }
+
+  .feat-img-box-4 {
+    grid-row: 7 / 8;
+  }
+
+  .img-description-1 {
+    left: 2%;
+  }
+
+  .img-description-3 {
+    left: 2%;
+  }
+
+  .img-description-4 {
+    top: 6%;
+    left: 2%;
+  }
+
+  .feat-img-container-4 {
+    border-radius: 30px;
+  }
+
+  .gallery-container {
+    grid-template-columns: 1.4fr 1fr 1fr;
+  }
+
+  .vegetables {
+    grid-column: auto;
+    border-radius: 0 40px 40px 40px;
+  }
+
+  .vegetables .text-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: normal;
+  }
+
+  .vegetable-container {
+    align-items: normal;
+  }
+
+  .foliage {
+    grid-column: 1 / 3;
+  }
+
+  .orchids {
+    grid-column: 1 / -1;
+    grid-row: 4 / -1;
+    height: 264px;
+  }
+
+  .top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .links-container {
+    width: 100%;
+  }
+
+  .bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 37em) {
+  html {
+    font-size: 45%;
+  }
+
+  .gallery-container {
+    grid-template-columns: 1.4fr 1fr;
+  }
+
+  .herbs {
+    grid-column: 1 / -1;
+    border-radius: 25px 25px 25px 0;
+  }
+
+  .foliage {
+    grid-column: auto;
+    height: 234px;
+  }
+
+  .gallery-container .title {
+    font-size: 2.4rem;
+  }
+
+  .gallery-container .gal-icon {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+}
+
+@media (max-width: 28em) {
+  html {
+    font-size: 42%;
+  }
+
+  .hero .btn:first-of-type {
+    margin-bottom: 10px;
+  }
+
+  .heading-primary {
+    line-height: 6rem;
+  }
+
+  .flowering {
+    border-radius: 30px 0 30px 30px;
+  }
+}
+
+@media (max-width: 22em) {
+  .hero-img {
+    width: 176px;
+  }
+
+  .app-icon {
+    width: 71px;
+  }
+
+  .add-plant-icon {
+    width: 102px;
+  }
+
+  .menu-bar-icon {
+    width: 193px;
+  }
+
+  .vegetables {
+    border-radius: 0 20px 20px 20px;
   }
 }
