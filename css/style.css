@@ -435,9 +435,17 @@
   font-size: 2.4rem;
 }
 
+.swiper {
+  position: static;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
   display: none;
+}
+
+.swiper-control-container {
+  position: relative;
 }
 
 .swiper-pagination {
